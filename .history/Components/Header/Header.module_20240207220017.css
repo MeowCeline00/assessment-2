@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: #d1d1d1; 
+}
+
+.titleArea {
+    display: flex;
+    flex-direction: column; 
+}
+
+.titleArea h1 {
+    color: rgb(15, 64, 162);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titleArea h2 {
+    color: rgb(203, 165, 27);
+}
+
+.logoArea {
+  display: flex;
+  padding: 80px;
+}

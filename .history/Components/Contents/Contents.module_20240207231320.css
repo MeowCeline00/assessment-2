@@ -1,0 +1,19 @@
+.contents {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    margin: 20px; /* Adjust the margin as needed */
+}
+
+.projectDescription {
+    margin-bottom: 20px; /* Space between the description and the images */
+}
+
+.butterflyPattern {
+    margin-bottom: 20px; /* Space between each butterfly information block */
+}
+
+.butterflyPattern img {
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    max-width: 100%; /* Ensure the image is responsive and doesn't overflow */
+}

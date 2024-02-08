@@ -1,0 +1,33 @@
+.contents {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.projectDescription {
+    margin-bottom: 20px;
+}
+
+.butterflyPattern {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.butterflyDes {
+    flex: 1;
+    padding-right: 20px; /* Adds space between the text and the image */
+}
+
+.butterflyPic {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Aligns the image to the start of the flex item */
+    align-items: center; /* This is optional, only if you want vertical alignment */
+}
+
+.butterflyPic img {
+    max-width: 100%;
+    height: auto;
+}

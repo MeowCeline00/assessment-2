@@ -1,0 +1,45 @@
+.contents {
+    display: flex;
+    flex-direction: column; /* Stack children vertically by default */
+    margin: 20px; /* Adjust the margin as needed */
+}
+
+.projectDescription {
+    /* This section will be on top by default because of the column flex-direction */
+    margin-bottom: 20px; /* Space between the description and the images */
+}
+
+.butterflyPatterns {
+    /* This will layout the butterfly information blocks in a column */
+    display: flex;
+    flex-direction: column;
+}
+
+.butterflyPattern {
+    margin-bottom: 20px; /* Space between each butterfly information block */
+}
+
+.butterflyPattern img {
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    max-width: 100%; /* Ensure the image is responsive and doesn't overflow */
+}
+
+/* Media query for larger screens - adjust '768px' based on your design requirements */
+@media (min-width: 768px) {
+    .contents {
+        flex-direction: row; /* Align children horizontally on larger screens */
+        justify-content: space-between; /* Spacing between the main content and images */
+        align-items: flex-start; /* Align items at the start of the cross axis */
+    }
+
+    .projectDescription {
+        flex: 1; /* Takes up only the space it needs, adjust as needed */
+        margin-right: 20px; /* Right margin between text and images */
+    }
+
+    .butterflyPatterns {
+        flex: 2; /* Takes up twice the space compared to projectDescription, adjust as needed */
+        align-items: flex-end; /* Align images to the right */
+    }
+}

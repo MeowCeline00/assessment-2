@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: var(--header-background); 
+}
+
+.titleArea {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 20%;
+}
+
+.titleArea h1 {
+    color: var(--h1);
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titleArea h2 {
+    color: var(h2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logoArea {
+  display: flex;
+  padding-right: 20%;
+}

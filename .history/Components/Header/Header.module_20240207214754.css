@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: inline-block; 
+    padding: 50px;
+    width: 100%; 
+  }
+  
+  .n.titleArea {
+    display: inline-block;
+    align-items: center; 
+    justify-content: flex-end; 
+    width: 100%; 
+  }
+  
+  .logoArea img {
+    display: block;
+  }
+  

@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: i 
+    padding: 50px;
+    width: 100%; 
+  }
+  
+  .notificationArea {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+    width: 100%; 
+  }
+  
+  .notificationArea img {
+    display: block;
+  }
+  

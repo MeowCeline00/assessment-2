@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: #000; /* Example background color */
+    color: #fff; /* Example text color */
+}
+
+.titleArea {
+    display: flex;
+    flex-direction: column; /* Stack the h1 and h2 on top of each other */
+}
+
+.logoArea {
+    /* If you need to style the logo area specifically, do it here */
+}

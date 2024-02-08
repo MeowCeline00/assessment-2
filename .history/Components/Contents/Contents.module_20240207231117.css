@@ -1,0 +1,31 @@
+.contents {
+    display: flex;
+    flex-direction: row; /* Align children horizontally */
+    justify-content: space-between; /* Spacing between the main content and images */
+    align-items: flex-start; /* Align items at the start of the cross axis */
+    margin: 20px; /* Adjust the margin as needed */
+}
+
+.projectDescription {
+    flex: 1; /* Takes up only the space it needs */
+    margin-right: 20px; /* Adjust the margin as needed */
+    padding: ;
+}
+
+.butterflyPatterns {
+    flex: 2; /* Takes up twice the space compared to projectDescription */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align images to the right */
+}
+
+.butterflyPatterns > div {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+.butterflyPatterns img {
+    width: auto; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    max-width: 100%; /* Ensure the image is responsive and doesn't overflow */
+}

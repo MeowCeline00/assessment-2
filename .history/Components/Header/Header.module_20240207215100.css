@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: #000; 
+    color: #fff; 
+}
+
+.titleArea {
+    display: flex;
+    flex-direction: column; 
+}
+
+.logoArea {
+  display: block;
+}

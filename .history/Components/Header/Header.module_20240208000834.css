@@ -32,18 +32,16 @@
 @media (min-width: 701px) and (max-width: 1120px) {
     .header {
         flex-direction: row;
-        padding: auto;
     }
 }
 
 /* Mobile view */
 @media (max-width: 700px) {
-    .header {
+    .butterflyPattern {
         flex-direction: column;
-        padding-right: 15%;
     }
 
-    .logoArea {
+    .butterflyPic {
         display: none;
     }
 }
